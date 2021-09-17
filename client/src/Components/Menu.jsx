@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from './Header.jsx';
+import MenuItem from './MenuItem.jsx';
 
 function Menu(){
     return (
         <div>
             <Header />
-            <h1>Welcome to the Menu page!</h1>
+            <MenuItem />
         </div>
     );
 }

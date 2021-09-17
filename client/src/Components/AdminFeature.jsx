@@ -64,7 +64,7 @@ function AdminFeature(){
                     />
                 </div>
                 
-                <button class="btn btn-lg submit-btn" type="submit">Submit</button>
+                <button className="btn btn-block btn-lg submit-btn" type="submit">Submit</button>
             </form>
             </section>
         </div>
