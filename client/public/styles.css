@@ -52,6 +52,12 @@ p {
     height: 500px;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 35%;
+    height: 300px;
+}
+
 .feature-descript {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;

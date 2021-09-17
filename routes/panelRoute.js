@@ -6,8 +6,6 @@ router.route("/create-panel").post((req, res) => {
     const photoUrl = req.body.photo;
     const title = req.body.title;
     
-    console.log(photoUrl);
-    
     const newPanel = new Panel({
         photoUrl,
         title
@@ -16,4 +14,8 @@ router.route("/create-panel").post((req, res) => {
     newPanel.save();
 });
 
+router.route("/panels").get((req, res) => {
+    Panel.find()
+        .then(foundPanels => res.json(foundPanels));
+})
 module.exports = router;
