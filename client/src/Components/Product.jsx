@@ -1,8 +1,11 @@
 import React from 'react';
 import CoffeeToGo from '../images/coffee-cup.png';
 
+
 function Product(){
-    return (<div>
+    return (
+    <div id="menu-section">
+        <h1></h1>
         <div className="p-10 bg-yellow-100 md:grid grid-cols-3">
             <div className="bg-yellow-500 p-4 rounded-3xl">
                 <img className="w-60 h-auto mx-auto mb-3 transform rotate-12" src={CoffeeToGo} alt="Coffee Cup" />

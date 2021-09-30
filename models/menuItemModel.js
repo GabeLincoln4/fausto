@@ -1,10 +1,7 @@
 const mongoose = require('mongoose');
 
 const menuItemSchema = {
-    photo: {
-        data: Buffer,
-        contentType: String
-    },
+    photo: String,
     title: String,
     smallItemPrice: String,
     mediumItemPrice: String,
