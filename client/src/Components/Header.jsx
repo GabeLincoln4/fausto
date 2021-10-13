@@ -20,10 +20,10 @@ function Header(){
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto link-list">
               <li>
-                <Link to="/" className="nav-item nav-link">Home</Link>
+                <ScrollLink to="home" href="/" className="nav-item nav-link" smooth={true} duration={2000}>Home</ScrollLink>
               </li>
               <li>
-                <Link to="/menu" className="nav-item nav-link">Menu</Link>
+                <ScrollLink to="services" href="" className="nav-item nav-link" smooth={true} duration={2000}>Services</ScrollLink>
               </li>
               <li>
                 <ScrollLink className="nav-item nav-link" href="" to="roaster" smooth={true} duration={2000} >
