@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 //connect to mongoose
-mongoose.connect("mongodb+srv://admin-gabriel:xiqW75HDDMmoRhiK@cluster0.n51sy.mongodb.net/panelsDB");
+mongoose.connect("mongodb+srv://admin-gabriel:<password>@cluster0.n51sy.mongodb.net/panelsDB");
 
 //require route
 app.use("/", require("./routes/featuresRoute.js"));
