@@ -12,6 +12,7 @@ mongoose.connect("mongodb+srv://admin-gabriel:<password>@cluster0.n51sy.mongodb.
 //require route
 app.use("/", require("./routes/featuresRoute.js"));
 app.use("/", require("./routes/panelRoute.js"));
+app.use("/", require("./routes/menuItemRoute.js"));
 
 
 

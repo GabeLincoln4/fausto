@@ -1,14 +1,21 @@
 import React from "react";
 import Header from "./Header.jsx";
 import Feature from "./Feature.jsx";
-import Testimonial from "./Testimonial";
+import Roaster from "./Roaster.jsx";
+import Lincolnton from "./Lincolnton.jsx";
+import {BrowserRouter, Route} from "react-router-dom";
+import Footer from './Footer.jsx';
+import Services from './Services.jsx';
 
 function Home(){
     return (
         <div>
             <Header />
             <Feature />
-            <Testimonial />
+            <Services />
+            <Roaster />
+            <Lincolnton />
+            <Footer />
         </div>
     );
 }
