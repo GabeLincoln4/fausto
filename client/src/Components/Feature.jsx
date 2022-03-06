@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import CoffeeHangOut from "../images/hang-out.svg";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import {Link} from "react-router-dom";
-import ProductList from "./ProductList";
+
 import {Link as ScrollLink} from 'react-scroll';
 import AOS from 'aos';
 

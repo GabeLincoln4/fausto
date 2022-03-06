@@ -1,8 +1,6 @@
 import React from "react";
 import Header from "./Header.jsx";
 import Feature from "./Feature.jsx";
-import Testimonial from "./Testimonial";
-import ProductList from "./ProductList.jsx";
 import Roaster from "./Roaster.jsx";
 import Lincolnton from "./Lincolnton.jsx";
 import {BrowserRouter, Route} from "react-router-dom";
