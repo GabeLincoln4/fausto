@@ -17,7 +17,7 @@ function Feature(){
     }, [])
 
     const normalClassName = "bg-yellow-800 flex-grow rounded-3xl shadow-2xl text-white text-2xl md:transform md:translate-x-0 my-5 p-2 md:w-3/4";
-    const alternateClassName = "bg-yellow-600 flex-grow rounded-3xl shadow-lg text-white text-2xl md:transform md:translate-x-0 my-5 p-2 md:w-3/4";
+    const alternateClassName = "bg-yellow-500 flex-grow rounded-3xl shadow-lg text-white text-2xl md:transform md:translate-x-0 my-5 p-2 md:w-3/4";
 
     const [arrowStyle, setArrowStyle] = useState(null);
     const [buttonStyle, setButtonStyle] = useState(normalClassName);
