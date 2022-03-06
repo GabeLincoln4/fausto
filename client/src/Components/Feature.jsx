@@ -34,7 +34,7 @@ function Feature(){
 
 
     return (
-        <div className="bg-yellow-100 h-screen" id="home">
+        <div className="bg-yellow-200 h-full" id="home">
             <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 pt-20" data-aos="zoom-in">
                         <div className="md:p-4 text-center md:self-end h-2/3">
                             <h1 className="md:text-left text-6xl md:text-7xl leading-tight">Freshly <span className="text-yellow-800" whileHover="text-white">Roasted. </span>Downtown <span className="text-yellow-400">Feel.</span></h1>
