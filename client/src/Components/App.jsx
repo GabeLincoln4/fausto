@@ -6,8 +6,6 @@ function App() {
   return (
     <div>
       <Route exact path="/" component={Home} />
-     
-      
     </div>
   );
 }
