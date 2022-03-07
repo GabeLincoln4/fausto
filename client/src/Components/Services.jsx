@@ -25,7 +25,7 @@ function Services(){
 
 
     return (
-        <div className="bg-yellow-500">
+        <div className="bg-yellow-200">
             <div className="grid grid-cols-1 md:grid-cols-2 pt-5" id="services">
                 <ServiceItem order=" md:order-1"/>
                 <div className={imgStyle + " md:order-2"}>
