@@ -20,6 +20,7 @@ function Footer(){
                 <li><a href="https://www.freepik.com/vectors/people-city">People city vector created by pch.vector - www.freepik.com</a></li>
                 <li><a href="https://www.freepik.com/vectors/restaurant-cartoon">Restaurant cartoon vector created by upklyak - www.freepik.com</a></li>
                 <li><a href="https://www.freepik.com/photos/cocktail-bar">Cocktail bar photo created by azerbaijan_stockers - www.freepik.com</a></li>
+                <li>Photo by Kaboompics.com from Pexels</li>
             </ul>
         </div>
         
