@@ -11,7 +11,7 @@ function Header(){
     return (
       <div className="bar">
         <nav class="bg-yellow-800 navbar fixed w-full h-auto navbar-expand-lg top-bar z-20">
-          <a class="navbar-brand text-white" href="#">Fausto Coffee</a>
+          <a class="navbar-brand text-white" href="/">Fausto Coffee</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <Fab>
               <MenuIcon />
